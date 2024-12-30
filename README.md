@@ -12,3 +12,9 @@ Features:
 Usage:
 1. Specify the paths for the .vdscript file, .cpf file, video file, and audio file.
 2. Run the script.
+
+Note: Works best with .vdscript files processed by "vdscript_range_adjuster", which is another one of my python scripts. It can be found on GitHub. If your cut-in/cut-out points have already been aligned with keyframes, "vdscript_range_adjuster" is not necessary.
+
+Version History:
+v1.0.0 - Initial script with basic conversion functionality.
+v1.1.0 - Added segment identifying feature for all output .cpf files.
